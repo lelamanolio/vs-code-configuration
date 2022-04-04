@@ -1,0 +1,96 @@
+{
+	"________Editor__________________": "",
+	"workbench.colorTheme": "Night Owl",
+	"editor.fontFamily": "Dank Mono, Fira Code, monospace",
+	"editor.fontLigatures": true,
+	"editor.wordWrap": "on",
+	"editor.fontSize": 14,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"html.autoClosingTags": true,
+	"editor.renderWhitespace": "all",
+	"editor.tabCompletion": "on",
+	"editor.formatOnSave": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"workbench.sideBar.location": "right",
+	"security.workspace.trust.enabled": false,
+	"emmet.includeLanguages": {
+		"twig": "html",
+		"erb": "html",
+		"ruby": "html"
+	},
+	"editor.stickyTabStops": true,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#8370eb",
+		"editorBracketHighlight.foreground2": "#6a9ff6",
+		"editorBracketHighlight.foreground3": "#70ccd7",
+		"editorBracketHighlight.foreground4": "#8370eb",
+		"editorBracketHighlight.foreground5": "#6a9ff6",
+		"editorBracketHighlight.foreground6": "#70ccd7",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+	},
+	"________Terminal________________": "",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": "400",
+	"________Formatting_preferences__": "",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	"[javascript]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	// show eslint icon at bottom toolbar
+	"eslint.alwaysShowStatus": true,
+	// tell the ESLint plugin to run on save
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"_______Indent_rainbow___________": "",
+	"indentRainbow.colors": [
+		"rgba(126,87,194,0.4)",
+		"rgba(126,87,194,0.3)",
+		"rgba(126,87,194,0.2)"
+	],
+	"indentRainbow.errorColor": "rgba(231,76,60 ,0.2)",
+	"______Workspace_manager_________": "",
+	"workspace-manager.includeGlobPattern": ["/Users/micaela/dev/workspaces"],
+	"______Todo_tree_________________": "",
+	"todo-tree.general.tags": [
+		"TODO",
+		"TO DO",
+		"TO-DO",
+		"FIXME",
+		"FIX ME",
+		"TOFIX",
+		"TO FIX",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.highlights.defaultHighlight": {
+		"icon": "check-circle-fill",
+		"type": "tag",
+		"foreground": "white",
+		"background": "#7E57C2",
+		"opacity": 90,
+		"iconColour": "#7E57C2"
+	},
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"editor.accessibilitySupport": "off",
+	"window.zoomLevel": 0,
+	"tabnine.experimentalAutoImports": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"explorer.confirmDelete": false
+}
